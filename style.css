@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 20px 20px;
+    background-color: antiquewhite;
+}
+
+.fjalla-one-regular {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.5rem;
+}
+nav { 
+    padding: 25px 25px;
+    display: flex;
+    flex-direction: column;
+}
+nav > a { 
+    font-family: "Fjalla One", sans-serif;
+    color: magenta;
+    padding: 20px 20px;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+
+nav>a:hover { 
+    text-decoration: underline;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#html { 
+    background-color: #011627;
+}
+
+#css { 
+    background-color: #FDFFFC;
+}
+
+#js { 
+    background-color: #2EC4B6;
+}
+
+#game-dev { 
+    background-color: #E71D36;
+}
+
+#vr { 
+    background-color: #FF9F1C;
+}
+
+article > h1 {
+    font-family: "Fjalla One", sans-serif; 
+    font-size: 2.1rem;
+    color: magenta
+}
+.descricao {
+    font-family: "Fjalla One", sans-serif; 
+    font-size: 1.1rem;
+    color: aquamarine;
+}
+
+.container { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    padding: 0 20px;
+}
+
+.container > p { 
+    text-align: justify;
+}
+
+article { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+
+}
